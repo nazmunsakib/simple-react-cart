@@ -1,0 +1,6 @@
+.shop-container {display: grid;grid-template-columns: 3fr 1fr;}
+
+.products-container {
+    padding-left: 85px;
+    padding-right: 60px;
+}
