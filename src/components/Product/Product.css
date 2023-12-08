@@ -2,5 +2,30 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px 20px;
-    padding-top: 80px;
+}
+.product-item-info {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.product-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ededed;
+}
+.add-to-cart {
+    border-radius: 0;
+    background: #FFE0B3;
+}
+.add-to-cart:focus {
+    outline: none;
+}
+.shop-container {
+    padding: 60px 0;
+}
+.order-info {
+    background: #FFE0B3;
+    padding: 20px;
 }
